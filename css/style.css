@@ -13,6 +13,10 @@
 	font-family: robotothin;
 }
 
+@font-face{
+	src:url(../fonts/roboto/Roboto-Light.ttf);
+	font-family: robotolight;
+}
 
 /*General*/
 body{
@@ -34,12 +38,38 @@ header{
 	font-size: 13px;
 	text-align: center;
 }
+
+.h5{
+	padding: 12px;
+	font-family: robotolight;
+	color: #41307C;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.font{
+	font-family: robotolight;
+	font-weight: 300;
+}
+
 .box{
 	border: 1px solid #5e35b1;
 	margin-top: 20px;
 	color: #5e35b1;
-	font: robotobold;
-	font-size: 20px;
+	font: robotonormal;
+	font-weight: 500;
+}
+
+.box h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.card-panel .h4{
+	font-size: 18px;
+	font-weight: 400;
+	color: #5e35b1;
+
 }
 
 .bold{
@@ -86,8 +116,7 @@ nav .nav-wrapper ul li:hover{
 }
 
 .side-nav{
-	background-color:#424242;
-	color: #fff;
+	color: #41307C;
 }
 
 .brand-logo{
